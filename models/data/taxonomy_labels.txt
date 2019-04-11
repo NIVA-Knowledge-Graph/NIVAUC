@@ -1,0 +1,1221 @@
+1527586|1|Invertebrates
+356393|1|Invertebrates
+1385638|10|Vertebrates
+1279096|1|Invertebrates
+10101|6|Rodents
+99072|4|Plants and Fungi
+126679|10|Vertebrates
+1675519|1|Invertebrates
+795045|1|Invertebrates
+183030|4|Plants and Fungi
+711050|1|Invertebrates
+346252|1|Invertebrates
+201696|10|Vertebrates
+2321153|1|Invertebrates
+326719|1|Invertebrates
+568895|10|Vertebrates
+183268|4|Plants and Fungi
+252792|10|Vertebrates
+380134|4|Plants and Fungi
+8429|10|Vertebrates
+887478|1|Invertebrates
+31178|1|Invertebrates
+3711|4|Plants and Fungi
+321859|1|Invertebrates
+888266|4|Plants and Fungi
+273752|1|Invertebrates
+257784|4|Plants and Fungi
+443752|10|Vertebrates
+1365757|10|Vertebrates
+1902172|1|Invertebrates
+447592|1|Invertebrates
+77604|4|Plants and Fungi
+36597|4|Plants and Fungi
+688538|1|Invertebrates
+77571|1|Invertebrates
+91610|10|Vertebrates
+159761|1|Invertebrates
+167337|4|Plants and Fungi
+665250|1|Invertebrates
+133573|4|Plants and Fungi
+1194616|1|Invertebrates
+506672|1|Invertebrates
+1891755|9|Viruses
+95698|1|Invertebrates
+49249|4|Plants and Fungi
+1796438|1|Invertebrates
+69819|1|Invertebrates
+85066|10|Vertebrates
+8040|10|Vertebrates
+161590|10|Vertebrates
+126885|10|Vertebrates
+415722|1|Invertebrates
+143644|10|Vertebrates
+13658|1|Invertebrates
+1128632|0|Bacteria
+76012|4|Plants and Fungi
+160497|10|Vertebrates
+303447|1|Invertebrates
+1336450|1|Invertebrates
+161252|1|Invertebrates
+4577|4|Plants and Fungi
+40252|1|Invertebrates
+32242|4|Plants and Fungi
+55612|4|Plants and Fungi
+313923|4|Plants and Fungi
+46107|4|Plants and Fungi
+1436124|10|Vertebrates
+86257|4|Plants and Fungi
+3435|4|Plants and Fungi
+1955251|1|Invertebrates
+643233|4|Plants and Fungi
+28468|4|Plants and Fungi
+13339|4|Plants and Fungi
+45482|6|Rodents
+703263|1|Invertebrates
+54477|4|Plants and Fungi
+257627|4|Plants and Fungi
+55040|2|Mammals
+221654|1|Invertebrates
+6663|1|Invertebrates
+547447|4|Plants and Fungi
+1078294|0|Bacteria
+122938|1|Invertebrates
+1709623|1|Invertebrates
+643323|10|Vertebrates
+4362|4|Plants and Fungi
+293677|1|Invertebrates
+680683|1|Invertebrates
+166824|4|Plants and Fungi
+6395|4|Plants and Fungi
+1167650|1|Invertebrates
+1710407|1|Invertebrates
+457379|1|Invertebrates
+503588|1|Invertebrates
+58860|4|Plants and Fungi
+90396|4|Plants and Fungi
+328808|10|Vertebrates
+51544|1|Invertebrates
+108749|1|Invertebrates
+104777|1|Invertebrates
+1577725|4|Plants and Fungi
+1889816|1|Invertebrates
+1666479|1|Invertebrates
+97025|4|Plants and Fungi
+1479479|4|Plants and Fungi
+50029|1|Invertebrates
+1594321|1|Invertebrates
+910957|1|Invertebrates
+312085|10|Vertebrates
+398552|4|Plants and Fungi
+7950|10|Vertebrates
+574477|4|Plants and Fungi
+159718|10|Vertebrates
+33614|10|Vertebrates
+2510778|4|Plants and Fungi
+13306|4|Plants and Fungi
+1041976|10|Vertebrates
+587144|1|Invertebrates
+688627|1|Invertebrates
+87681|4|Plants and Fungi
+340056|1|Invertebrates
+749192|10|Vertebrates
+321860|1|Invertebrates
+1205958|1|Invertebrates
+481679|1|Invertebrates
+743380|1|Invertebrates
+376833|1|Invertebrates
+658419|4|Plants and Fungi
+129430|6|Rodents
+50510|4|Plants and Fungi
+261862|1|Invertebrates
+231958|4|Plants and Fungi
+360693|1|Invertebrates
+599746|1|Invertebrates
+5047|4|Plants and Fungi
+8037|10|Vertebrates
+245892|1|Invertebrates
+29035|1|Invertebrates
+5898|1|Invertebrates
+1197709|4|Plants and Fungi
+1887501|1|Invertebrates
+3336|4|Plants and Fungi
+35570|1|Invertebrates
+141264|10|Vertebrates
+236792|1|Invertebrates
+37138|9|Viruses
+8293|10|Vertebrates
+420099|1|Invertebrates
+552841|4|Plants and Fungi
+210632|10|Vertebrates
+89462|2|Mammals
+74736|1|Invertebrates
+35938|4|Plants and Fungi
+1732200|1|Invertebrates
+230351|1|Invertebrates
+6954|1|Invertebrates
+704012|1|Invertebrates
+1375357|1|Invertebrates
+88447|10|Vertebrates
+224787|1|Invertebrates
+50207|4|Plants and Fungi
+108699|1|Invertebrates
+1046591|1|Invertebrates
+35725|4|Plants and Fungi
+313693|1|Invertebrates
+143416|10|Vertebrates
+98470|4|Plants and Fungi
+29019|1|Invertebrates
+678621|1|Invertebrates
+193007|4|Plants and Fungi
+40811|4|Plants and Fungi
+909776|1|Invertebrates
+1436134|4|Plants and Fungi
+296034|4|Plants and Fungi
+53944|1|Invertebrates
+91713|10|Vertebrates
+996506|4|Plants and Fungi
+51023|4|Plants and Fungi
+512777|10|Vertebrates
+42528|10|Vertebrates
+100830|10|Vertebrates
+108946|4|Plants and Fungi
+1790162|1|Invertebrates
+2007228|1|Invertebrates
+655800|4|Plants and Fungi
+586002|1|Invertebrates
+1432316|1|Invertebrates
+136508|1|Invertebrates
+45619|4|Plants and Fungi
+591392|1|Invertebrates
+6305|1|Invertebrates
+118510|4|Plants and Fungi
+981031|1|Invertebrates
+270791|1|Invertebrates
+596841|1|Invertebrates
+684724|0|Bacteria
+1896687|1|Invertebrates
+38869|4|Plants and Fungi
+40071|1|Invertebrates
+1654418|1|Invertebrates
+4606|4|Plants and Fungi
+1389466|1|Invertebrates
+4006|4|Plants and Fungi
+8330|10|Vertebrates
+2022689|1|Invertebrates
+307131|1|Invertebrates
+83198|1|Invertebrates
+1606494|1|Invertebrates
+115703|10|Vertebrates
+350064|1|Invertebrates
+2825|4|Plants and Fungi
+689085|1|Invertebrates
+55978|1|Invertebrates
+944273|4|Plants and Fungi
+680295|1|Invertebrates
+1107762|1|Invertebrates
+102771|4|Plants and Fungi
+109871|4|Plants and Fungi
+260202|10|Vertebrates
+2782|4|Plants and Fungi
+152231|1|Invertebrates
+1351858|1|Invertebrates
+182105|4|Plants and Fungi
+1810959|1|Invertebrates
+84505|1|Invertebrates
+1220391|1|Invertebrates
+2763|4|Plants and Fungi
+351233|1|Invertebrates
+48796|1|Invertebrates
+8319|10|Vertebrates
+1656447|1|Invertebrates
+1720690|1|Invertebrates
+6772|1|Invertebrates
+196903|4|Plants and Fungi
+6451|1|Invertebrates
+989733|1|Invertebrates
+42648|10|Vertebrates
+137673|4|Plants and Fungi
+87719|10|Vertebrates
+2301316|10|Vertebrates
+866504|1|Invertebrates
+942940|1|Invertebrates
+1272053|1|Invertebrates
+1545332|1|Invertebrates
+8049|10|Vertebrates
+66551|1|Invertebrates
+31243|1|Invertebrates
+130081|4|Plants and Fungi
+2056173|1|Invertebrates
+93883|1|Invertebrates
+933502|4|Plants and Fungi
+91731|10|Vertebrates
+195082|10|Vertebrates
+55455|4|Plants and Fungi
+131216|1|Invertebrates
+1208417|10|Vertebrates
+500326|4|Plants and Fungi
+146604|1|Invertebrates
+4204|4|Plants and Fungi
+515157|1|Invertebrates
+6665|1|Invertebrates
+42413|6|Rodents
+178459|4|Plants and Fungi
+330961|1|Invertebrates
+70920|1|Invertebrates
+240448|4|Plants and Fungi
+1573495|4|Plants and Fungi
+173899|4|Plants and Fungi
+54563|10|Vertebrates
+1003157|10|Vertebrates
+279632|1|Invertebrates
+545764|1|Invertebrates
+690315|4|Plants and Fungi
+869627|1|Invertebrates
+1593259|1|Invertebrates
+13106|10|Vertebrates
+1365671|10|Vertebrates
+4796|4|Plants and Fungi
+90986|1|Invertebrates
+111670|4|Plants and Fungi
+1191542|1|Invertebrates
+1109706|10|Vertebrates
+1972777|1|Invertebrates
+1114773|4|Plants and Fungi
+32201|4|Plants and Fungi
+225107|4|Plants and Fungi
+313243|10|Vertebrates
+53323|1|Invertebrates
+288158|1|Invertebrates
+930997|4|Plants and Fungi
+5974|1|Invertebrates
+329103|1|Invertebrates
+83310|1|Invertebrates
+381125|1|Invertebrates
+1783291|1|Invertebrates
+2024244|1|Invertebrates
+37863|1|Invertebrates
+349989|4|Plants and Fungi
+39636|4|Plants and Fungi
+1704191|4|Plants and Fungi
+3102|4|Plants and Fungi
+97006|4|Plants and Fungi
+147635|4|Plants and Fungi
+100896|6|Rodents
+146727|1|Invertebrates
+586878|1|Invertebrates
+6832|1|Invertebrates
+866043|1|Invertebrates
+278501|4|Plants and Fungi
+240156|10|Vertebrates
+27528|1|Invertebrates
+7368|1|Invertebrates
+1897147|1|Invertebrates
+51631|1|Invertebrates
+200915|1|Invertebrates
+426283|4|Plants and Fungi
+496830|1|Invertebrates
+191066|4|Plants and Fungi
+392763|1|Invertebrates
+451517|4|Plants and Fungi
+34163|4|Plants and Fungi
+2055848|9|Viruses
+34773|10|Vertebrates
+269403|1|Invertebrates
+41964|4|Plants and Fungi
+128512|1|Invertebrates
+113498|1|Invertebrates
+52396|1|Invertebrates
+1519113|1|Invertebrates
+182300|4|Plants and Fungi
+61207|4|Plants and Fungi
+193532|1|Invertebrates
+1573175|4|Plants and Fungi
+120411|4|Plants and Fungi
+89343|4|Plants and Fungi
+1162628|1|Invertebrates
+52999|4|Plants and Fungi
+28525|4|Plants and Fungi
+8078|10|Vertebrates
+473130|1|Invertebrates
+108112|1|Invertebrates
+228114|4|Plants and Fungi
+138984|1|Invertebrates
+1267246|1|Invertebrates
+132493|1|Invertebrates
+34817|10|Vertebrates
+197152|1|Invertebrates
+131220|4|Plants and Fungi
+708047|1|Invertebrates
+239232|1|Invertebrates
+290852|4|Plants and Fungi
+3047|4|Plants and Fungi
+180228|1|Invertebrates
+162997|1|Invertebrates
+302047|10|Vertebrates
+131698|1|Invertebrates
+360350|1|Invertebrates
+29715|4|Plants and Fungi
+1209544|1|Invertebrates
+441539|4|Plants and Fungi
+941921|4|Plants and Fungi
+86023|4|Plants and Fungi
+31199|1|Invertebrates
+1381948|1|Invertebrates
+36718|10|Vertebrates
+128028|1|Invertebrates
+91525|4|Plants and Fungi
+26378|4|Plants and Fungi
+327393|1|Invertebrates
+6544|1|Invertebrates
+1373157|1|Invertebrates
+626739|4|Plants and Fungi
+43413|1|Invertebrates
+454641|1|Invertebrates
+55967|1|Invertebrates
+42192|1|Invertebrates
+1437087|1|Invertebrates
+198676|4|Plants and Fungi
+1609950|10|Vertebrates
+104075|10|Vertebrates
+13146|10|Vertebrates
+318068|4|Plants and Fungi
+604281|1|Invertebrates
+79015|10|Vertebrates
+767023|1|Invertebrates
+331382|4|Plants and Fungi
+5888|1|Invertebrates
+389133|1|Invertebrates
+184741|1|Invertebrates
+340536|1|Invertebrates
+114400|0|Bacteria
+32110|4|Plants and Fungi
+91248|4|Plants and Fungi
+160621|4|Plants and Fungi
+880995|1|Invertebrates
+55891|1|Invertebrates
+451679|10|Vertebrates
+879032|1|Invertebrates
+1118642|1|Invertebrates
+262132|4|Plants and Fungi
+981264|1|Invertebrates
+145888|1|Invertebrates
+82204|1|Invertebrates
+1080442|1|Invertebrates
+31302|4|Plants and Fungi
+2340106|1|Invertebrates
+31907|1|Invertebrates
+173086|1|Invertebrates
+645005|1|Invertebrates
+1204166|1|Invertebrates
+36177|10|Vertebrates
+662952|1|Invertebrates
+210448|4|Plants and Fungi
+587664|4|Plants and Fungi
+311903|1|Invertebrates
+42856|1|Invertebrates
+6700|1|Invertebrates
+329100|1|Invertebrates
+45783|10|Vertebrates
+9355|2|Mammals
+912448|4|Plants and Fungi
+6233|1|Invertebrates
+55906|1|Invertebrates
+29692|4|Plants and Fungi
+109854|1|Invertebrates
+101409|1|Invertebrates
+53008|4|Plants and Fungi
+92950|4|Plants and Fungi
+134919|10|Vertebrates
+55670|4|Plants and Fungi
+6431|1|Invertebrates
+161583|10|Vertebrates
+112528|1|Invertebrates
+547423|4|Plants and Fungi
+1176411|1|Invertebrates
+44030|1|Invertebrates
+28909|4|Plants and Fungi
+927941|10|Vertebrates
+174394|1|Invertebrates
+334871|1|Invertebrates
+38527|10|Vertebrates
+205582|4|Plants and Fungi
+7162|1|Invertebrates
+46209|1|Invertebrates
+66620|4|Plants and Fungi
+8297|10|Vertebrates
+1150979|10|Vertebrates
+661982|10|Vertebrates
+756329|1|Invertebrates
+3161|4|Plants and Fungi
+2029207|1|Invertebrates
+1049545|1|Invertebrates
+587140|1|Invertebrates
+349661|10|Vertebrates
+269059|10|Vertebrates
+114497|4|Plants and Fungi
+2479706|1|Invertebrates
+552050|1|Invertebrates
+171736|10|Vertebrates
+572853|1|Invertebrates
+1079993|10|Vertebrates
+884168|10|Vertebrates
+404333|1|Invertebrates
+30001|1|Invertebrates
+28974|4|Plants and Fungi
+7064|1|Invertebrates
+1720707|1|Invertebrates
+1336365|1|Invertebrates
+221566|1|Invertebrates
+1888032|1|Invertebrates
+466555|1|Invertebrates
+756026|4|Plants and Fungi
+199495|4|Plants and Fungi
+1545927|1|Invertebrates
+1977160|10|Vertebrates
+57771|10|Vertebrates
+158622|1|Invertebrates
+1851548|10|Vertebrates
+279982|10|Vertebrates
+52709|4|Plants and Fungi
+880975|1|Invertebrates
+883175|1|Invertebrates
+527648|1|Invertebrates
+2086638|1|Invertebrates
+8351|10|Vertebrates
+114056|1|Invertebrates
+353093|4|Plants and Fungi
+433272|1|Invertebrates
+307031|1|Invertebrates
+93886|1|Invertebrates
+108123|1|Invertebrates
+1982031|4|Plants and Fungi
+183063|4|Plants and Fungi
+1401365|4|Plants and Fungi
+58286|4|Plants and Fungi
+466709|1|Invertebrates
+466841|1|Invertebrates
+516744|1|Invertebrates
+2056227|1|Invertebrates
+50518|4|Plants and Fungi
+1911423|4|Plants and Fungi
+29845|4|Plants and Fungi
+2071416|4|Plants and Fungi
+8443|10|Vertebrates
+58319|10|Vertebrates
+322470|1|Invertebrates
+40695|4|Plants and Fungi
+141167|1|Invertebrates
+1522908|1|Invertebrates
+856986|4|Plants and Fungi
+59971|4|Plants and Fungi
+136345|1|Invertebrates
+159668|4|Plants and Fungi
+1981044|1|Invertebrates
+1558240|1|Invertebrates
+39305|1|Invertebrates
+282736|4|Plants and Fungi
+332811|1|Invertebrates
+315709|1|Invertebrates
+704092|4|Plants and Fungi
+283615|1|Invertebrates
+59291|10|Vertebrates
+363723|1|Invertebrates
+70401|1|Invertebrates
+603767|1|Invertebrates
+210010|4|Plants and Fungi
+59818|1|Invertebrates
+90345|4|Plants and Fungi
+98326|4|Plants and Fungi
+248183|1|Invertebrates
+199062|1|Invertebrates
+52375|1|Invertebrates
+75126|1|Invertebrates
+105209|1|Invertebrates
+297841|1|Invertebrates
+1672244|10|Vertebrates
+4076|4|Plants and Fungi
+267567|4|Plants and Fungi
+46955|1|Invertebrates
+158098|4|Plants and Fungi
+751683|4|Plants and Fungi
+59124|1|Invertebrates
+908146|1|Invertebrates
+763221|1|Invertebrates
+65660|1|Invertebrates
+215473|4|Plants and Fungi
+1072333|9|Viruses
+420089|1|Invertebrates
+262009|1|Invertebrates
+8435|10|Vertebrates
+1407621|4|Plants and Fungi
+1390230|0|Bacteria
+241031|1|Invertebrates
+869203|1|Invertebrates
+66535|1|Invertebrates
+1002737|1|Invertebrates
+40954|4|Plants and Fungi
+433869|4|Plants and Fungi
+418411|0|Bacteria
+2429042|1|Invertebrates
+154827|10|Vertebrates
+92068|1|Invertebrates
+76338|10|Vertebrates
+691566|1|Invertebrates
+92719|4|Plants and Fungi
+585959|1|Invertebrates
+50581|1|Invertebrates
+468977|4|Plants and Fungi
+52067|1|Invertebrates
+175860|1|Invertebrates
+108727|1|Invertebrates
+143766|1|Invertebrates
+402707|10|Vertebrates
+34787|10|Vertebrates
+565004|1|Invertebrates
+1471881|10|Vertebrates
+8467|10|Vertebrates
+389125|1|Invertebrates
+390823|1|Invertebrates
+55824|1|Invertebrates
+56551|1|Invertebrates
+4554|4|Plants and Fungi
+326189|10|Vertebrates
+1304779|1|Invertebrates
+560839|4|Plants and Fungi
+86021|4|Plants and Fungi
+8019|10|Vertebrates
+135777|1|Invertebrates
+113446|4|Plants and Fungi
+68557|10|Vertebrates
+53593|1|Invertebrates
+1037369|0|Bacteria
+673200|4|Plants and Fungi
+84385|1|Invertebrates
+1101080|1|Invertebrates
+148819|1|Invertebrates
+56594|1|Invertebrates
+95634|4|Plants and Fungi
+1907856|1|Invertebrates
+248460|1|Invertebrates
+96803|1|Invertebrates
+127142|4|Plants and Fungi
+347735|1|Invertebrates
+527790|1|Invertebrates
+13750|4|Plants and Fungi
+5939|1|Invertebrates
+161199|1|Invertebrates
+189211|4|Plants and Fungi
+37273|10|Vertebrates
+485355|4|Plants and Fungi
+53591|1|Invertebrates
+7215|1|Invertebrates
+13378|4|Plants and Fungi
+30732|10|Vertebrates
+120995|1|Invertebrates
+296450|1|Invertebrates
+178293|1|Invertebrates
+100861|4|Plants and Fungi
+128254|4|Plants and Fungi
+683832|10|Vertebrates
+38544|4|Plants and Fungi
+1979919|1|Invertebrates
+51331|10|Vertebrates
+1616906|1|Invertebrates
+465062|1|Invertebrates
+565426|4|Plants and Fungi
+89686|4|Plants and Fungi
+28800|10|Vertebrates
+150114|1|Invertebrates
+71739|10|Vertebrates
+217165|1|Invertebrates
+10160|6|Rodents
+330168|4|Plants and Fungi
+13055|4|Plants and Fungi
+307691|10|Vertebrates
+9669|2|Mammals
+665965|1|Invertebrates
+6561|1|Invertebrates
+81692|1|Invertebrates
+126650|1|Invertebrates
+45130|4|Plants and Fungi
+55588|4|Plants and Fungi
+1220349|1|Invertebrates
+99873|10|Vertebrates
+573240|0|Bacteria
+101162|4|Plants and Fungi
+1527200|4|Plants and Fungi
+3703|4|Plants and Fungi
+406086|1|Invertebrates
+357114|1|Invertebrates
+114742|4|Plants and Fungi
+181188|4|Plants and Fungi
+3882|4|Plants and Fungi
+355514|10|Vertebrates
+35226|1|Invertebrates
+4210|4|Plants and Fungi
+319738|4|Plants and Fungi
+889313|1|Invertebrates
+216861|1|Invertebrates
+7191|1|Invertebrates
+683979|1|Invertebrates
+445571|4|Plants and Fungi
+426641|4|Plants and Fungi
+274346|1|Invertebrates
+31228|1|Invertebrates
+82750|1|Invertebrates
+1610892|10|Vertebrates
+336657|1|Invertebrates
+867017|4|Plants and Fungi
+29706|4|Plants and Fungi
+178385|1|Invertebrates
+371472|1|Invertebrates
+304018|10|Vertebrates
+1043170|1|Invertebrates
+55975|1|Invertebrates
+1298722|4|Plants and Fungi
+92986|1|Invertebrates
+1425181|1|Invertebrates
+205132|10|Vertebrates
+41427|1|Invertebrates
+2093171|4|Plants and Fungi
+33128|4|Plants and Fungi
+2870|4|Plants and Fungi
+1227666|1|Invertebrates
+1874784|1|Invertebrates
+7135|1|Invertebrates
+110015|1|Invertebrates
+65035|1|Invertebrates
+67554|10|Vertebrates
+553714|1|Invertebrates
+756066|1|Invertebrates
+182946|10|Vertebrates
+192237|1|Invertebrates
+456371|4|Plants and Fungi
+519494|1|Invertebrates
+1569679|1|Invertebrates
+79801|1|Invertebrates
+1150113|10|Vertebrates
+862943|9|Viruses
+375239|4|Plants and Fungi
+1136322|4|Plants and Fungi
+82941|4|Plants and Fungi
+258839|1|Invertebrates
+1005992|1|Invertebrates
+1003149|4|Plants and Fungi
+149425|4|Plants and Fungi
+591258|10|Vertebrates
+52064|1|Invertebrates
+320987|1|Invertebrates
+393619|1|Invertebrates
+463830|1|Invertebrates
+249260|1|Invertebrates
+81817|4|Plants and Fungi
+1957062|1|Invertebrates
+113495|1|Invertebrates
+38742|1|Invertebrates
+119370|1|Invertebrates
+69293|10|Vertebrates
+55598|4|Plants and Fungi
+767022|1|Invertebrates
+286419|2|Mammals
+53523|1|Invertebrates
+751712|4|Plants and Fungi
+65070|4|Plants and Fungi
+312028|0|Bacteria
+100124|10|Vertebrates
+464023|4|Plants and Fungi
+42855|1|Invertebrates
+108729|1|Invertebrates
+3041|4|Plants and Fungi
+47389|1|Invertebrates
+889485|4|Plants and Fungi
+35872|4|Plants and Fungi
+36599|4|Plants and Fungi
+1301021|10|Vertebrates
+64832|1|Invertebrates
+542820|1|Invertebrates
+856989|4|Plants and Fungi
+61147|4|Plants and Fungi
+490245|10|Vertebrates
+143764|1|Invertebrates
+1282961|10|Vertebrates
+1542051|1|Invertebrates
+1769458|10|Vertebrates
+72368|4|Plants and Fungi
+408838|1|Invertebrates
+1042268|1|Invertebrates
+47562|10|Vertebrates
+39984|4|Plants and Fungi
+172420|10|Vertebrates
+140997|4|Plants and Fungi
+857568|10|Vertebrates
+206733|1|Invertebrates
+1213203|1|Invertebrates
+1511197|1|Invertebrates
+1885027|10|Vertebrates
+30331|10|Vertebrates
+743690|1|Invertebrates
+28980|4|Plants and Fungi
+239562|4|Plants and Fungi
+183838|4|Plants and Fungi
+3634|4|Plants and Fungi
+205291|1|Invertebrates
+871685|1|Invertebrates
+1783299|1|Invertebrates
+6231|1|Invertebrates
+1231918|10|Vertebrates
+1041455|1|Invertebrates
+638338|1|Invertebrates
+165561|1|Invertebrates
+857619|10|Vertebrates
+1366564|1|Invertebrates
+72366|1|Invertebrates
+3917|4|Plants and Fungi
+1366291|4|Plants and Fungi
+2833|4|Plants and Fungi
+197171|1|Invertebrates
+74026|4|Plants and Fungi
+67428|4|Plants and Fungi
+150272|1|Invertebrates
+687029|1|Invertebrates
+665427|10|Vertebrates
+481309|1|Invertebrates
+143398|10|Vertebrates
+77061|4|Plants and Fungi
+308528|1|Invertebrates
+158049|10|Vertebrates
+345740|1|Invertebrates
+1436025|1|Invertebrates
+71411|1|Invertebrates
+49747|4|Plants and Fungi
+2005548|1|Invertebrates
+138017|4|Plants and Fungi
+1941232|10|Vertebrates
+297838|1|Invertebrates
+2175382|1|Invertebrates
+4563|4|Plants and Fungi
+361475|1|Invertebrates
+6778|1|Invertebrates
+207650|1|Invertebrates
+46600|1|Invertebrates
+1713717|4|Plants and Fungi
+753170|1|Invertebrates
+3054|4|Plants and Fungi
+266796|10|Vertebrates
+83319|1|Invertebrates
+319398|4|Plants and Fungi
+272055|1|Invertebrates
+1869587|1|Invertebrates
+1574420|10|Vertebrates
+70399|1|Invertebrates
+193294|1|Invertebrates
+692080|1|Invertebrates
+33408|1|Invertebrates
+317342|10|Vertebrates
+280216|1|Invertebrates
+307452|9|Viruses
+38410|4|Plants and Fungi
+220093|1|Invertebrates
+32216|4|Plants and Fungi
+703271|1|Invertebrates
+52462|4|Plants and Fungi
+41102|1|Invertebrates
+1582038|1|Invertebrates
+82932|4|Plants and Fungi
+1000418|4|Plants and Fungi
+2217911|1|Invertebrates
+2133793|9|Viruses
+1131304|1|Invertebrates
+137520|10|Vertebrates
+217319|4|Plants and Fungi
+203114|10|Vertebrates
+260305|1|Invertebrates
+80249|1|Invertebrates
+527630|1|Invertebrates
+357285|10|Vertebrates
+114280|4|Plants and Fungi
+6455|1|Invertebrates
+207752|1|Invertebrates
+48668|10|Vertebrates
+263425|1|Invertebrates
+163131|10|Vertebrates
+8966|10|Vertebrates
+246441|1|Invertebrates
+229543|4|Plants and Fungi
+55118|10|Vertebrates
+586676|1|Invertebrates
+36312|10|Vertebrates
+236416|1|Invertebrates
+3760|4|Plants and Fungi
+6626|1|Invertebrates
+1710669|1|Invertebrates
+7116|1|Invertebrates
+145882|1|Invertebrates
+28796|10|Vertebrates
+310435|1|Invertebrates
+161091|1|Invertebrates
+500316|1|Invertebrates
+177866|1|Invertebrates
+184747|1|Invertebrates
+527158|1|Invertebrates
+18795|4|Plants and Fungi
+903847|1|Invertebrates
+6234|1|Invertebrates
+61508|4|Plants and Fungi
+1498573|1|Invertebrates
+44056|4|Plants and Fungi
+141395|1|Invertebrates
+37653|1|Invertebrates
+6319|1|Invertebrates
+87157|4|Plants and Fungi
+58004|1|Invertebrates
+336262|10|Vertebrates
+112782|1|Invertebrates
+30271|1|Invertebrates
+27681|6|Rodents
+245088|1|Invertebrates
+84782|10|Vertebrates
+272407|1|Invertebrates
+1835704|10|Vertebrates
+55611|4|Plants and Fungi
+884337|0|Bacteria
+538894|1|Invertebrates
+560254|1|Invertebrates
+911175|1|Invertebrates
+1511825|1|Invertebrates
+61450|4|Plants and Fungi
+1658598|1|Invertebrates
+2049373|1|Invertebrates
+182642|10|Vertebrates
+107322|10|Vertebrates
+43053|1|Invertebrates
+29788|4|Plants and Fungi
+1518449|1|Invertebrates
+9786|4|Plants and Fungi
+1749025|10|Vertebrates
+408256|1|Invertebrates
+70944|4|Plants and Fungi
+2449132|1|Invertebrates
+649769|4|Plants and Fungi
+49927|1|Invertebrates
+688486|1|Invertebrates
+179871|1|Invertebrates
+257458|4|Plants and Fungi
+1973512|1|Invertebrates
+282281|1|Invertebrates
+7211|1|Invertebrates
+91438|1|Invertebrates
+88846|4|Plants and Fungi
+161089|1|Invertebrates
+96890|1|Invertebrates
+225392|10|Vertebrates
+194339|4|Plants and Fungi
+407264|4|Plants and Fungi
+285653|1|Invertebrates
+1242752|1|Invertebrates
+212925|4|Plants and Fungi
+219166|1|Invertebrates
+865980|1|Invertebrates
+242054|10|Vertebrates
+2305824|4|Plants and Fungi
+30301|1|Invertebrates
+1187874|1|Invertebrates
+70384|1|Invertebrates
+37547|1|Invertebrates
+527797|1|Invertebrates
+49317|4|Plants and Fungi
+318394|10|Vertebrates
+676265|1|Invertebrates
+676260|1|Invertebrates
+221374|0|Bacteria
+231341|1|Invertebrates
+240814|1|Invertebrates
+1193841|4|Plants and Fungi
+211171|1|Invertebrates
+310513|1|Invertebrates
+78534|4|Plants and Fungi
+293655|1|Invertebrates
+126069|1|Invertebrates
+5932|1|Invertebrates
+28806|10|Vertebrates
+72446|10|Vertebrates
+170506|4|Plants and Fungi
+3570|4|Plants and Fungi
+43178|4|Plants and Fungi
+199516|4|Plants and Fungi
+2137850|1|Invertebrates
+1056689|1|Invertebrates
+53728|4|Plants and Fungi
+1003125|1|Invertebrates
+164538|4|Plants and Fungi
+372538|1|Invertebrates
+41142|1|Invertebrates
+1440579|4|Plants and Fungi
+52152|4|Plants and Fungi
+2012964|10|Vertebrates
+128924|4|Plants and Fungi
+866555|4|Plants and Fungi
+1511203|1|Invertebrates
+52273|10|Vertebrates
+74940|10|Vertebrates
+125629|4|Plants and Fungi
+140783|4|Plants and Fungi
+193553|1|Invertebrates
+114457|4|Plants and Fungi
+79327|1|Invertebrates
+39347|4|Plants and Fungi
+368348|4|Plants and Fungi
+649173|4|Plants and Fungi
+199531|4|Plants and Fungi
+2005890|1|Invertebrates
+707629|4|Plants and Fungi
+86938|10|Vertebrates
+55322|4|Plants and Fungi
+79217|4|Plants and Fungi
+71042|4|Plants and Fungi
+141292|4|Plants and Fungi
+111463|4|Plants and Fungi
+76800|1|Invertebrates
+163152|1|Invertebrates
+158163|4|Plants and Fungi
+373115|4|Plants and Fungi
+318676|10|Vertebrates
+508665|1|Invertebrates
+13180|10|Vertebrates
+141916|1|Invertebrates
+331380|1|Invertebrates
+68872|4|Plants and Fungi
+1482150|1|Invertebrates
+120290|4|Plants and Fungi
+414309|1|Invertebrates
+2006552|1|Invertebrates
+47528|1|Invertebrates
+795070|1|Invertebrates
+2218685|10|Vertebrates
+75288|10|Vertebrates
+44484|1|Invertebrates
+881746|1|Invertebrates
+1117|0|Bacteria
+487997|4|Plants and Fungi
+75943|4|Plants and Fungi
+269057|10|Vertebrates
+480604|1|Invertebrates
+7153|1|Invertebrates
+224134|1|Invertebrates
+881570|1|Invertebrates
+538612|1|Invertebrates
+119682|10|Vertebrates
+192191|1|Invertebrates
+434553|4|Plants and Fungi
+1223578|4|Plants and Fungi
+236801|1|Invertebrates
+81723|1|Invertebrates
+1050923|1|Invertebrates
+217611|1|Invertebrates
+1933717|4|Plants and Fungi
+231936|4|Plants and Fungi
+348710|10|Vertebrates
+57571|10|Vertebrates
+144406|1|Invertebrates
+937382|4|Plants and Fungi
+1680593|1|Invertebrates
+231618|1|Invertebrates
+3510|4|Plants and Fungi
+1582900|1|Invertebrates
+90988|10|Vertebrates
+224265|1|Invertebrates
+70792|4|Plants and Fungi
+136225|4|Plants and Fungi
+104630|10|Vertebrates
+500706|1|Invertebrates
+913975|4|Plants and Fungi
+37671|4|Plants and Fungi
+1178041|1|Invertebrates
+316163|10|Vertebrates
+189215|4|Plants and Fungi
+3900|4|Plants and Fungi
+661175|4|Plants and Fungi
+57919|4|Plants and Fungi
+1117310|4|Plants and Fungi
+158093|4|Plants and Fungi
+43271|1|Invertebrates
+7992|10|Vertebrates
+44588|4|Plants and Fungi
+160577|4|Plants and Fungi
+346689|1|Invertebrates
+62893|4|Plants and Fungi
+75356|10|Vertebrates
+8260|10|Vertebrates
+29143|10|Vertebrates
+323851|4|Plants and Fungi
+364081|10|Vertebrates
+33380|1|Invertebrates
+140866|4|Plants and Fungi
+6752|1|Invertebrates
+38949|1|Invertebrates
+227481|1|Invertebrates
+236543|1|Invertebrates
+397976|1|Invertebrates
+27818|1|Invertebrates
+943736|1|Invertebrates
+1816180|4|Plants and Fungi
+187412|10|Vertebrates
+245775|10|Vertebrates
+403091|4|Plants and Fungi
+7671|1|Invertebrates
+681895|10|Vertebrates
+7154|1|Invertebrates
+45836|4|Plants and Fungi
+52074|10|Vertebrates
+4513|4|Plants and Fungi
+4560|4|Plants and Fungi
+48499|1|Invertebrates
+8504|10|Vertebrates
+236547|1|Invertebrates
+544597|10|Vertebrates
+95960|4|Plants and Fungi
+73114|1|Invertebrates
+4751|4|Plants and Fungi
+661414|1|Invertebrates
+320286|1|Invertebrates
+43179|6|Rodents
+155062|10|Vertebrates
+67435|4|Plants and Fungi
+98299|1|Invertebrates
+85702|1|Invertebrates
+9940|2|Mammals
+3635|4|Plants and Fungi
+405314|4|Plants and Fungi
+97093|4|Plants and Fungi
+586672|1|Invertebrates
+7130|1|Invertebrates
+79462|1|Invertebrates
+5940|1|Invertebrates
+74523|4|Plants and Fungi
+9694|2|Mammals
+169957|1|Invertebrates
+1214686|10|Vertebrates
+8321|10|Vertebrates
+463589|4|Plants and Fungi
+1709596|1|Invertebrates
+409481|1|Invertebrates
+1183213|1|Invertebrates
+205354|1|Invertebrates
+203326|10|Vertebrates
+248804|10|Vertebrates
+425479|10|Vertebrates
+278585|4|Plants and Fungi
+666556|4|Plants and Fungi
+182339|0|Bacteria
+264913|1|Invertebrates
+296035|4|Plants and Fungi
+1398187|4|Plants and Fungi
+1678257|1|Invertebrates
+408254|1|Invertebrates
+38722|4|Plants and Fungi
+244131|10|Vertebrates
+2268136|10|Vertebrates
+94172|10|Vertebrates
+426639|4|Plants and Fungi
+33514|10|Vertebrates
+1490964|4|Plants and Fungi
+28528|4|Plants and Fungi
+1735346|1|Invertebrates
+29205|4|Plants and Fungi
+679340|10|Vertebrates
+208336|10|Vertebrates
+3999|4|Plants and Fungi
+544687|1|Invertebrates
+4511|4|Plants and Fungi
+106741|1|Invertebrates
+948721|1|Invertebrates
+52147|4|Plants and Fungi
+190536|4|Plants and Fungi
+7797|10|Vertebrates
+208013|9|Viruses
+1871490|1|Invertebrates
+8018|10|Vertebrates
+909296|1|Invertebrates
+77300|4|Plants and Fungi
+1080762|1|Invertebrates
+114266|4|Plants and Fungi
+241323|10|Vertebrates
+204490|10|Vertebrates
+381410|4|Plants and Fungi
+309363|4|Plants and Fungi
+655677|10|Vertebrates
+120843|10|Vertebrates
+7704|1|Invertebrates
+632107|1|Invertebrates
+40296|4|Plants and Fungi
+316508|4|Plants and Fungi
+869071|1|Invertebrates
+454511|4|Plants and Fungi
+1628325|1|Invertebrates
+343691|1|Invertebrates
+449132|4|Plants and Fungi
+2923|4|Plants and Fungi
+1087219|4|Plants and Fungi
+55986|1|Invertebrates
+46147|4|Plants and Fungi
+1110513|9|Viruses
+341131|1|Invertebrates
+2053791|1|Invertebrates
+133227|1|Invertebrates
+1729211|1|Invertebrates
+262038|1|Invertebrates
+30325|10|Vertebrates
+107451|4|Plants and Fungi
+1368171|1|Invertebrates
+1206072|1|Invertebrates
+30228|1|Invertebrates
+1120475|4|Plants and Fungi
+1140842|1|Invertebrates
+226931|10|Vertebrates
+79857|4|Plants and Fungi
+192584|9|Viruses
+80350|1|Invertebrates
+34814|10|Vertebrates
+1729666|1|Invertebrates
+33509|1|Invertebrates
+417378|10|Vertebrates
+315584|1|Invertebrates
+1137568|1|Invertebrates
+245858|1|Invertebrates
+722605|10|Vertebrates
+1948877|1|Invertebrates
+1221126|10|Vertebrates
+1216959|1|Invertebrates
+469647|1|Invertebrates
+5886|1|Invertebrates
+85267|4|Plants and Fungi
+1871733|0|Bacteria
+8406|10|Vertebrates
+174397|1|Invertebrates
+78524|1|Invertebrates
+199020|1|Invertebrates
+41139|1|Invertebrates
+6763|1|Invertebrates
+611316|10|Vertebrates
+91400|1|Invertebrates
+127603|4|Plants and Fungi
+177579|1|Invertebrates
+710223|1|Invertebrates
+130111|4|Plants and Fungi
+236805|1|Invertebrates
+176123|1|Invertebrates
+43073|4|Plants and Fungi
+248191|1|Invertebrates
+52398|1|Invertebrates
+117569|10|Vertebrates
+1914991|10|Vertebrates
+84009|4|Plants and Fungi
+995699|1|Invertebrates
+318716|4|Plants and Fungi
+91590|1|Invertebrates
+382247|10|Vertebrates
+143606|10|Vertebrates
+431400|4|Plants and Fungi
+107249|10|Vertebrates
+53299|1|Invertebrates
