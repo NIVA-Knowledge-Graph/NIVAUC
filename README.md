@@ -3,11 +3,11 @@
 In this work we show the benefits of using Semantic Web tools to integrate different data sources, and knowledge graph embedding
 approaches to improve the ecotoxicological effect prediction in the Norwegian Institute for Water Research ([NIVA](https://www.niva.no/en)), a leading institute for fundamental and applied research on marine and freshwaters.
 
-Material (To be completed after internal review at NIVA):
-
-- Processed data sources
-- The Toxicological Effects and Risk Assessment (TERA) knowledge graph.
-- Source codes: [machine learning models](https://github.com/Erik-BM/NIVAUC/tree/master/models)
+Material:
+- The Toxicological Effects and Risk Assessment ([TERA](https://github.com/Erik-BM/NIVAUC/tree/master/kg)) knowledge graph.
+- Source codes: 
+⋅⋅⋅ -[machine learning models](https://github.com/Erik-BM/NIVAUC/tree/master/models)
+⋅⋅⋅ -[queries](https://github.com/Erik-BM/NIVAUC/tree/master/queries)
 
 
 ## Related publications
