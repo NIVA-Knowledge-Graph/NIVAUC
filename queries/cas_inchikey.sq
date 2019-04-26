@@ -1,6 +1,0 @@
-SELECT DISTINCT ?cas ?inchikey WHERE {
-    ?compound wdt:P31 wd:Q11173 . # is a chemical compound
-    ?compound wdt:P235 ?inchikey .
-    ?compound wdt:P231 ?cas .
-    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-    }
