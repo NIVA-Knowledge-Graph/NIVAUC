@@ -5,7 +5,7 @@ approaches to improve the ecotoxicological effect prediction in the Norwegian In
 
 Material:
 - The Toxicological Effects and Risk Assessment ([TERA](https://github.com/Erik-BM/NIVAUC/tree/master/kg)) knowledge graph.
-- Source codes:[create knowledge graph](https://github.com/Erik-BM/NIVAUC/tree/master/create_kg) [machine learning models](https://github.com/Erik-BM/NIVAUC/tree/master/models)
+- Source codes:[knowledge graph generation scripts](https://github.com/Erik-BM/NIVAUC/tree/master/create_kg) [machine learning models](https://github.com/Erik-BM/NIVAUC/tree/master/models)
 
 
 ## Related publications
