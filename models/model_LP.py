@@ -3,6 +3,8 @@
 from keras import Model
 from keras.layers import Dense, Dropout, BatchNormalization, Embedding, Multiply,Activation, Reshape, Concatenate, Lambda
 
+from keras.utils import plot_model
+
 import numpy as np
 from random import choice
 from sklearn.model_selection import StratifiedKFold
@@ -12,6 +14,9 @@ import tensorflow as tf
 from keras import backend as K
 from keras.callbacks import EarlyStopping
 from collections import defaultdict
+from keras.constraints import MaxNorm
+from tqdm import tqdm
+
 
 def circ(s,o):
     s,o = tf.cast(s, dtype=tf.complex128),tf.cast(o,dtype=tf.complex128)
@@ -34,14 +39,22 @@ def TransE(s,p,o):
 class LinkPredict(Model):
 
     def __init__(self,input_dim, embedding_dim = 128, use_bn=False, use_dp=False, embedding_method = 'DistMult'):
-        super(LinkPredict, self).__init__(name='mlp')
+        super(LinkPredict, self).__init__(name='lp')
         self.use_bn = use_bn
         self.use_dp = use_dp
         
-        self.e1 = Embedding(input_dim[0],embedding_dim)
-        self.e2 = Embedding(input_dim[1],embedding_dim)
+        if embedding_method == 'HolE':
+            constraint = MaxNorm(1,axis=1)
+        elif embedding_method == 'TransE':
+            constraint = None
+        elif embedding_method == 'DistMult':
+            constraint = MaxNorm(1,axis=1)
+        
+        self.e1 = Embedding(input_dim[0],embedding_dim,embeddings_constraint=constraint)
+        self.e2 = Embedding(input_dim[1],embedding_dim,embeddings_constraint=constraint)
         self.r1 = Embedding(input_dim[2],embedding_dim)
         self.r2 = Embedding(input_dim[3],embedding_dim)
+        
         
         if embedding_method == 'DistMult':
             self.embedding = [Multiply(),
@@ -61,20 +74,24 @@ class LinkPredict(Model):
             raise NotImplementedError(embedding_method+' not implemented')
         
         
+        self.rate = 0.2
+        
         self.ls = [Concatenate(),
-                   Dense(32,activation='relu'), 
+                   Dense(32),
+                   Dropout(self.rate),
+                   BatchNormalization(axis=-1),
+                   Activation('relu'),
                    Dense(1,activation='sigmoid'),
                    Reshape((-1,))]
         
-        
-        self.rate = 0.2
+
         if self.use_dp:
             self.dp = Dropout(self.rate)
-            self.ls.insert(1, Dropout(self.rate))
-            self.ls.insert(3, Dropout(self.rate))
             
         if self.use_bn:
-            self.bn = BatchNormalization(axis=-1)
+            self.bn1 = BatchNormalization(axis=-1)
+            self.bn2 = BatchNormalization(axis=-1)
+            
 
     def call(self, inputs):
         # triple1, triple2, triple3
@@ -104,14 +121,20 @@ class LinkPredict(Model):
             p2 = self.dp(p2)
             o2 = self.dp(o2)
             
-        if self.use_bn:
-            s1 = self.bn(s1)
-            p1 = self.bn(p1)
-            o1 = self.bn(o1)
+            s3 = self.dp(s3)
+            o3 = self.dp(o3)
             
-            s2 = self.bn(s2)
-            p2 = self.bn(p2)
-            o2 = self.bn(o2)
+        if self.use_bn:
+            s1 = self.bn1(s1)
+            p1 = self.bn1(p1)
+            o1 = self.bn1(o1)
+            
+            s2 = self.bn2(s2)
+            p2 = self.bn2(p2)
+            o2 = self.bn2(o2)
+            
+            s3 = self.bn1(s3)
+            o3 = self.bn2(o3)
             
         l1 = [s1,p1,o1]
         l2 = [s2,p2,o2]
@@ -127,7 +150,7 @@ class LinkPredict(Model):
         return l1,l2,x
     
 
-def main(cv=False):
+def main(cv=False, verbose=2, file_number = 0, repeat = 0):
 
     Cg = read_data('./data/chemical_graph.txt')
     Cs = read_data('./data/chemical_similarity.txt')
@@ -163,6 +186,10 @@ def main(cv=False):
     for s,p,o,score in Cg:
         X1.append((mapping_c[s],mapping_cr[p],mapping_c[o]))
         Y1.append(float(score))
+        
+        X1.append((mapping_c[choice(C)],mapping_cr[p],mapping_c[choice(C)]))
+        Y1.append(0)
+        
         distRc[mapping_cr[p]] += 1
         
     for s,p,o,score in Cs:
@@ -174,7 +201,10 @@ def main(cv=False):
                 continue
             X1.append((mapping_c[s],mapping_cr[p],mapping_c[o]))
             Y1.append(float(score))
-            distRc[mapping_cr[p]] += 1
+            
+            X1.append((mapping_c[choice(C)],mapping_cr[p],mapping_c[choice(C)]))
+            Y1.append(0)
+            
         except KeyError:
             pass
 
@@ -183,30 +213,10 @@ def main(cv=False):
     for s,p,o,score in Tg:
         X2.append((mapping_t[s],mapping_tr[p],mapping_t[o]))
         Y2.append(float(score))
-        distRt[mapping_tr[p]] += 1
-
-    CX1 = set(X1)
-    TX2 = set(X2)
-
-    Pc = [distRc[k] for k in sorted(distRc)]
-    Pc = [i/sum(Pc) for i in Pc]
-
-    Pt = [distRt[k] for k in sorted(distRt)]
-    Pt = [i/sum(Pt) for i in Pt]
-
-
-    while len(X1) < 5*len(Cg):
-        s,p,o = mapping_c[choice(C)],np.random.choice(len(Rc),p=Pc),mapping_c[choice(C)]
-        if (s,p,o) in CX1: continue
-        X1.append((s,p,o))
-        Y1.append(0)
         
-    while len(X2) < 5*len(Tg):
-        s,p,o = mapping_t[choice(T)],np.random.choice(len(Rt),p=Pt),mapping_t[choice(T)]
-        if (s,p,o) in TX2: continue
-        X2.append((s,p,o))
+        X2.append((mapping_t[choice(T)],mapping_tr[p],mapping_t[choice(T)]))
         Y2.append(0)
-
+        
     X3tr = []
     Y3tr = []
     X3te = []
@@ -215,17 +225,21 @@ def main(cv=False):
     for c,p,t,e in Etr:
         try:
             tmp = (mapping_c[c],mapping_er[p],mapping_t[t])
+            if tmp in X3tr: continue
             e = float(e)
             X3tr.append(tmp)
             Y3tr.append(e)
+            
         except KeyError:
             pass
     for c,p,t,e in Ete:
         try:
             tmp = (mapping_c[c],mapping_er[p],mapping_t[t])
+            if tmp in X3te: continue
             e = float(e)
             X3te.append(tmp)
             Y3te.append(e)
+            
         except KeyError:
             pass
 
@@ -238,21 +252,24 @@ def main(cv=False):
             X3tr.append(X3tr[idx])
         u,c = np.unique(Y3tr, return_counts=True)
 
+    d = len(Y1)/len(Y3tr)
+
     # Equal length inputs
-    m = max(len(Y1),len(Y2),len(Y3tr))
-    while min(len(Y1),len(Y2),len(Y3tr)) != m:
-        if len(Y1) < m:
-            idx = np.random.choice(len(Y1))
-            Y1.append(Y1[idx])
-            X1.append(X1[idx])
-        if len(Y2) < m:
-            idx = np.random.choice(len(Y2))
-            Y2.append(Y2[idx])
-            X2.append(X2[idx])
-        if len(Y3tr) < m:
-            idx = np.random.choice(len(Y3tr))
-            Y3tr.append(Y3tr[idx])
-            X3tr.append(X3tr[idx])
+    if not cv:
+        m = max(len(Y1),len(Y2),len(Y3tr))
+        while min(len(Y1),len(Y2),len(Y3tr)) != m:
+            if len(Y1) < m:
+                idx = np.random.choice(len(Y1))
+                Y1.append(Y1[idx])
+                X1.append(X1[idx])
+            if len(Y2) < m:
+                idx = np.random.choice(len(Y2))
+                Y2.append(Y2[idx])
+                X2.append(X2[idx])
+            if len(Y3tr) < m:
+                idx = np.random.choice(len(Y3tr))
+                Y3tr.append(Y3tr[idx])
+                X3tr.append(X3tr[idx])
 
     X1,X2,X3tr = np.asarray(X1),np.asarray(X2),np.asarray(X3tr)
     Y1,Y2,Y3tr = np.asarray(Y1),np.asarray(Y2),np.asarray(Y3tr)
@@ -268,58 +285,105 @@ def main(cv=False):
             "output_2": "binary_crossentropy",
             "output_3": "binary_crossentropy"
                 }
-    lossWeights = {"output_1": 1.0, "output_2": 1.0, "output_3": 1.0}
+    lW = {}
+    lW['DistMult'] = {"output_1": 0.5, "output_2": 0.5, "output_3": 1.0}
+    lW['HolE'] = {"output_1": 0.5, "output_2": 0.5, "output_3": 1.0}
+    lW['TransE'] = {"output_1": 1.0, "output_2": 1.0, "output_3": 1.0}
+    
     num_epochs = 1000
     metrics = ['accuracy', keras_precision, keras_recall, keras_auc, keras_f1, keras_fb]
     callbacks = [EarlyStopping(monitor='output_3_loss', mode='min', patience=5, restore_best_weights=True)]
-    results = []
-    for mode in ['DistMult','TransE','HolE']:
-        kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
-        cvscores = []
+    results = {}
+
+    for mode in ['TransE','DistMult','HolE']:
+        lossWeights = lW[mode]
+        
         if cv:
-            for train,test in kfold.split(X3tr,Y3tr):
-                model = LinkPredict(input_dim=[N,M,Nr,Mr], embedding_dim=128, use_bn=True,use_dp=True, embedding_method=mode)
-                # Compile model
-                
-                model.compile(loss=losses, loss_weights=lossWeights, optimizer='adagrad', metrics=metrics, callbacks=callbacks)
-                # Fit the model
-                
-                tmp_xtr = X3tr[train]
-                tmp_ytr = Y3tr[train]
-                #oversample train input 3
-                while len(tmp_ytr) < len(X1):
-                    i = np.random.choice(len(tmp_ytr))
-                    tmp_xtr = np.concatenate([tmp_xtr,tmp_xtr[i].reshape((1,3))], axis = 0)
-                    tmp_ytr = np.append(tmp_ytr,tmp_ytr[i])
-                
-                model.fit([X1,X2,tmp_xtr], [Y1,Y2,tmp_ytr], epochs=num_epochs, batch_size=len(tmp_ytr), verbose=0)
-                # evaluate the model
-                
-                scores = model.evaluate([X1[test],X2[test],X3tr[test]], [Y1[test],Y2[test],Y3tr[test]], verbose=0, batch_size=len(Y3tr[test]))
-                
-                cvscores.append(scores)
+            kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
+            cvscores = []
+            with tqdm(total=10,desc='CV: '+mode) as pbar:
+                for train,test in kfold.split(X3tr,Y3tr):
+                    model = LinkPredict(input_dim=[N,M,Nr,Mr], embedding_dim=128, use_bn=True,use_dp=True, embedding_method=mode)
+                    # Compile model
+                    
+                    model.compile(loss=losses, loss_weights=lossWeights, optimizer='adagrad', metrics=metrics, callbacks=callbacks)
+                    # Fit the model
+                    
+                    tmpx3 = X3tr[train]
+                    tmpy3 = Y3tr[train]
+                    
+                    tmpx1 = X1
+                    tmpy1 = Y1
+                    tmpx2 = X2
+                    tmpy2 = Y2
+                    
+                    m = max(len(tmpy1),len(tmpy2),len(tmpy3))
+                    while min(len(tmpy1),len(tmpy2),len(tmpy3)) != m:
+                        if len(tmpy1) < m:
+                            idx = np.random.choice(len(tmpy1))
+                            tmpx1 = np.concatenate((tmpx1,tmpx1[idx].reshape((1,3))),axis=0)
+                            tmpy1 = np.append(tmpy1,tmpy1[idx])
+                        if len(tmpy2) < m:
+                            idx = np.random.choice(len(tmpy2))
+                            tmpx2 = np.concatenate((tmpx2,tmpx2[idx].reshape((1,3))),axis=0)
+                            tmpy2 = np.append(tmpy2,tmpy2[idx])
+                        if len(tmpy3) < m:
+                            idx = np.random.choice(len(tmpy3))
+                            tmpx3 = np.concatenate((tmpx3,tmpx3[idx].reshape((1,3))),axis=0)
+                            tmpy3 = np.append(tmpy3,tmpy3[idx])
+                        
+                    model.fit([tmpx1,tmpx2,tmpx3], [tmpy1,tmpy2,tmpy3], epochs=num_epochs, batch_size=len(tmpy3), verbose=verbose, validation_split=0.0, shuffle=True)
+                    
+                    
+                    # evaluate the model
+                    
+                    scores = model.evaluate([X1[test],X2[test],X3tr[test]], [Y1[test],Y2[test],Y3tr[test]], verbose=0, batch_size=len(Y3tr[test]))
+                    
+                    cvscores.append(scores)
+                    
+                    pbar.update(1)
             cvscores = np.asarray(cvscores)
             for i,n in enumerate(model.metrics_names):
                 print(mode,n,"%.2f (+/- %.2f)" % (np.mean(cvscores[:,i]), np.std(cvscores[:,i])))
-
-        model = LinkPredict(input_dim=[N,M,Nr,Mr], embedding_dim=128, use_bn=True,use_dp=True, embedding_method=mode)
-        model.compile('adagrad', loss=losses, loss_weights=lossWeights, metrics=metrics)
-        model.fit([X1,X2,X3tr],[Y1,Y2,Y3tr], epochs = num_epochs, shuffle=True, verbose=2, callbacks=callbacks, batch_size = len(Y3tr))
-
-        r1 = model.evaluate([X1te,X2te,X3te], [Y1te,Y2te,Y3te], batch_size=len(Y3te),verbose=0)
-        for n,res in zip(model.metrics_names,r1):
-            print(mode,n,res)
         
-        r2 = model.predict([X1te,X2te,X3te])[-1]
-        
-        results.append([r1,r2,Y3te])
-    
-    return results
-        
+        else:
+            model = LinkPredict(input_dim=[N,M,Nr,Mr], embedding_dim=128, use_bn=True,use_dp=True, embedding_method=mode)
+            model.compile('adagrad', loss=losses, loss_weights=lossWeights, metrics=metrics)
+            
+            if repeat:
+                X1 = np.repeat(X1,repeat,axis=0)
+                X2 = np.repeat(X2,repeat,axis=0)
+                X3tr = np.repeat(X3tr,repeat,axis=0)
+                Y1 = np.repeat(Y1,repeat,axis=0)
+                Y2 = np.repeat(Y2,repeat,axis=0)
+                Y3tr = np.repeat(Y3tr,repeat,axis=0)
+                num_epochs = int(num_epochs/repeat)
+            
+            model.fit([X1,X2,X3tr],[Y1,Y2,Y3tr], epochs = num_epochs, shuffle=True, verbose=verbose, callbacks=callbacks, batch_size = len(Y3tr),validation_split=0.0)
 
+            r1 = model.evaluate([X1te,X2te,X3te], [Y1te,Y2te,Y3te], batch_size=256,verbose=0)
+            results[mode] = r1
+            
+            p = model.predict([X1te,X2te,X3te])[-1]
+            with open('./results/LP/'+mode+'/'+str(file_number)+'.txt', 'w') as f:
+                for a,b in zip(Y3te,p):
+                    f.write(str(a)+','+str(b[-1])+'\n')
+        
+    return model, results
 
 if __name__ == '__main__':
-    main(cv=False)
+    main(cv=True,verbose=0)
+    num = 10
+    cvscores = defaultdict(list)
+    for i in tqdm(range(num)):
+        model, scores = main(cv=False, verbose=0, file_number=i, repeat = 0)
+        for k in scores:
+            cvscores[k].append(scores[k])
+        
+    for k in cvscores:
+        scores = np.asarray(cvscores[k])
+        for i,n in enumerate(model.metrics_names):
+            print(k, n,"%.2f (+/- %.2f)" % (np.mean(scores[:,i]), np.std(scores[:,i])))
 
 
 
