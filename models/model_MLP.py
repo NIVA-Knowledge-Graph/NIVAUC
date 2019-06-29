@@ -1,7 +1,7 @@
 ### dense model
 
 from keras import Model
-from keras.layers import Dense, Dropout, BatchNormalization, Reshape, Embedding, Reshape, Concatenate
+from keras.layers import Dense, Dropout, BatchNormalization, Reshape, Embedding, Reshape, Concatenate, Activation
 import numpy as np
 from sklearn.model_selection import StratifiedKFold
 from metrics import keras_auc,keras_precision,keras_recall,keras_f1,keras_fb
@@ -29,12 +29,18 @@ class SimpleMLP(Model):
         self.e2 = Embedding(input_dim[1],embedding_dim[1],embeddings_constraint=constraint)
         self.m = Concatenate()
         
-        self.l1 = Dense(32, activation='relu')
+        self.rate = 0.2
         
-        self.ac = Dense(1, activation='sigmoid')
+        self.ls = [Concatenate(),
+                   Dense(32),
+                   Dropout(self.rate),
+                   BatchNormalization(axis=-1),
+                   Activation('relu'),
+                   Dense(1,activation='sigmoid'),
+                   Reshape((-1,))]
         
         if self.use_dp:
-            self.dp = Dropout(0.2)
+            self.dp = Dropout(self.rate)
         if self.use_bn:
             self.bn = BatchNormalization(axis=-1)
 
@@ -44,18 +50,19 @@ class SimpleMLP(Model):
         x1 = self.e1(x1)
         x2 = self.e2(x2)
         
-        x = self.m([x1,x2])
         if self.use_dp:
-            x = self.dp(x)
-        if self.use_bn:
-            self.bn = BatchNormalization(axis=-1)
-        
-        x = self.l1(x)
-        
-        if self.use_dp:
-            x = self.dp(x)
+            x1 = self.dp(x1)
+            x2 = self.dp(x2)
             
-        x = self.ac(x)
+        if self.use_bn:
+            x1 = self.bn(x1)
+            x2 = self.bn(x2)
+            
+        x = [x1,x2]
+        
+        for l in self.ls:
+            x = l(x)
+        
         return x
     
 def main(cv=False, verbose = 1, num_cl=10):
@@ -99,15 +106,6 @@ def main(cv=False, verbose = 1, num_cl=10):
             Yte.append(e)
         except KeyError:
             pass
-
-    #Oversampling training
-    #u,c = np.unique(Ytr, return_counts=True)
-    #while c[0] != c[1]:
-        #idx = np.random.choice(len(Ytr))
-        #if Ytr[idx] == u[np.argmin(c)]:
-            #Ytr.append(Ytr[idx])
-            #Xtr.append(Xtr[idx])
-        #u,c = np.unique(Ytr, return_counts=True)
 
     Xtr = np.asarray(Xtr)
     Ytr = np.asarray(Ytr)

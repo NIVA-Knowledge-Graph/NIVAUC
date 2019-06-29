@@ -42,7 +42,7 @@ def my_round(x,th):
 Y,Y_hat = {},{}
 
 num_files = 10
-avg_first = True
+avg_first = False
 
 di = './results/MLP/'
 Y['M2'],Y_hat['M2'] = load_data(di, num_files, avg_first=avg_first)
