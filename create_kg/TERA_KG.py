@@ -1,7 +1,7 @@
-from taxonomy import Taxonomy
-from chemicals import Chemistry
-from ecotox import Ecotox
-from utils import strip
+from rappt import Taxonomy
+from rappt import Chemistry
+from rappt import Ecotox
+from rappt import strip
 
 from rdflib import Graph
 from rdflib.Namespace import OWL
