@@ -1,9 +1,6 @@
-# Scripts for creating the TERA knowledge graph
+## Setup
 
-This work uses _python3.6_ with requirements that are found [here](https://github.com/Erik-BM/NIVAUC/tree/master/create_kg/requirements.txt) . 
-
-## Downloading raw data
-Downloading the raw data from [ECOTOX](https://cfpub.epa.gov/ecotox/), [NCBI](https://www.ncbi.nlm.nih.gov/taxonomy) and [PubChem](https://pubchem.ncbi.nlm.nih.gov/) can be done by excecuting the [download_raw_data.sh](https://github.com/Erik-BM/NIVAUC/tree/master/create_kg/download_raw_data.sh) shell script. 
+Install [rappt](https://gitlab.com/Erik-BM/rappt) and follow the instructions on how to download the data.
 
 ## Creating the knowledge graph
 
