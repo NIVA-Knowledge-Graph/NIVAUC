@@ -14,5 +14,5 @@ Material:
 
 - Erik B. Myklebust, Ernesto Jimenez-Ruiz, Jiaoyan Chen, Raoul Wolf, Knut Erik Tollefsen. [**Knowledge Graph Embedding for Ecotoxicological Effect Prediction**](https://arxiv.org/abs/1907.01328). International Semantic Web Conference 2019.
 
-- Erik B. Myklebust, Ernesto Jimenez-Ruiz, Jiaoyan Chen, Raoul Wolf, Knut Erik Tollefsen. [**Enabling Semantic Data Access for Toxicological Risk Assessment**](https://arxiv.org/abs/1908.10128). Submitted to a conference.
+- Erik B. Myklebust, Ernesto Jimenez-Ruiz, Jiaoyan Chen, Raoul Wolf, Knut Erik Tollefsen. [**Enabling Semantic Data Access for Toxicological Risk Assessment**](https://arxiv.org/abs/1908.10128). Submitted to a conference 2019.
 
