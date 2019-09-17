@@ -4,7 +4,7 @@ from rappt import Ecotox
 from rappt import strip
 
 from rdflib import Graph
-from rdflib.Namespace import OWL
+from rdflib.namespace import OWL
 
 basepath = './'
 t = Taxonomy(directory = basepath+'taxdump/', namespace = 'http://example.org/ncbi')
@@ -18,7 +18,7 @@ e.save(basepath+'rdf/')
 
 ### Mapping CAS to CID
 chems = [strip(s,['/','#']) for s in e.chemicals()]
-cids = c.convert_ids(from_='cas',to_='cid',chems)
+cids = c.convert_ids(from_='cas',to_='cid',ids=chems)
 
 sameas_graph = Graph()
 for a,b in zip(chems, cids):
