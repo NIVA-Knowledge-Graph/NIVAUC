@@ -11,9 +11,9 @@ Material:
 
 ## Related publications
 
--  Erik B. Myklebust, Ernesto Jimenez-Ruiz, Zofia C. Rudjord, Raoul Wolf, Knut Erik Tollefsen: [**Integrating  semantic  technologies  in  environmental  risk  assessment:  A  vision**](https://s3.amazonaws.com/setac.mms.uploads/m_48/extended_abstracts/49766_Myklebust/EBMyklebust_et_al_Semantics_and_risk_assessment.pdf).  29th Annual Meeting of the Society of Environmental Toxicology and Chemistry ([SETAC](https://helsinki.setac.org/)) (2019)
+- Erik B. Myklebust, Ernesto Jimenez-Ruiz, Jiaoyan Chen, Raoul Wolf, Knut Erik Tollefsen. [**Knowledge Graph Embedding for Ecotoxicological Effect Prediction**](https://arxiv.org/abs/1907.01328). International Semantic Web Conference 2019. *Nominated for Best Paper in the In-Use track of ISWC 2019*
 
-- Erik B. Myklebust, Ernesto Jimenez-Ruiz, Jiaoyan Chen, Raoul Wolf, Knut Erik Tollefsen. [**Knowledge Graph Embedding for Ecotoxicological Effect Prediction**](https://arxiv.org/abs/1907.01328). International Semantic Web Conference 2019.
+-  Erik B. Myklebust, Ernesto Jimenez-Ruiz, Zofia C. Rudjord, Raoul Wolf, Knut Erik Tollefsen: [**Integrating  semantic  technologies  in  environmental  risk  assessment:  A  vision**](https://s3.amazonaws.com/setac.mms.uploads/m_48/extended_abstracts/49766_Myklebust/EBMyklebust_et_al_Semantics_and_risk_assessment.pdf).  29th Annual Meeting of the Society of Environmental Toxicology and Chemistry ([SETAC](https://helsinki.setac.org/)) (2019)
 
 - Erik B. Myklebust, Ernesto Jimenez-Ruiz, Jiaoyan Chen, Raoul Wolf, Knut Erik Tollefsen. [**Enabling Semantic Data Access for Toxicological Risk Assessment**](https://arxiv.org/abs/1908.10128). Submitted to a conference 2019.
 
