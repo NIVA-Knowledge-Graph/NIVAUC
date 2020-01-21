@@ -15,5 +15,5 @@ Material:
 
 -  Erik B. Myklebust, Ernesto Jimenez-Ruiz, Zofia C. Rudjord, Raoul Wolf, Knut Erik Tollefsen: [**Integrating  semantic  technologies  in  environmental  risk  assessment:  A  vision**](https://s3.amazonaws.com/setac.mms.uploads/m_48/extended_abstracts/49766_Myklebust/EBMyklebust_et_al_Semantics_and_risk_assessment.pdf).  29th Annual Meeting of the Society of Environmental Toxicology and Chemistry ([SETAC](https://helsinki.setac.org/)) (2019)
 
-- Erik B. Myklebust, Ernesto Jimenez-Ruiz, Jiaoyan Chen, Raoul Wolf, Knut Erik Tollefsen. [**Enabling Semantic Data Access for Toxicological Risk Assessment**](https://arxiv.org/abs/1908.10128). arXiv:1908.10128.
+- Erik B. Myklebust, Ernesto Jimenez-Ruiz, Jiaoyan Chen, Raoul Wolf, Knut Erik Tollefsen. [**TERA: the Toxicological Effect and Risk Assessment Knowledge Graph**](https://arxiv.org/abs/1908.10128). arXiv:1908.10128.
 
