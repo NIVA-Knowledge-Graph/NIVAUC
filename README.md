@@ -4,10 +4,10 @@ In this work we show the benefits of using Semantic Web tools to integrate diffe
 approaches to improve the ecotoxicological effect prediction in the Norwegian Institute for Water Research ([NIVA](https://www.niva.no/en)), a leading institute for fundamental and applied research on marine and freshwaters.
 
 Material:
-- The [rappt](https://gitlab.com/Erik-BM/rappt) tool set for integrating the disparate data sources. 
-- [Knowledge graph generation scripts](https://github.com/Erik-BM/NIVAUC/tree/master/create_kg).
-- The generated Toxicological Effects and Risk Assessment ([TERA](https://github.com/Erik-BM/NIVAUC/tree/master/kg)) knowledge graph.
-- [Machine learning models](https://github.com/Erik-BM/NIVAUC/tree/master/models).
+- The [TERA tool](https://github.com/NIVA-Knowledge-Graph/TERA) set for integrating the disparate data sources. 
+- [Knowledge graph generation scripts](https://github.com/NIVA-Knowledge-Graph/NIVAUC/tree/master/create_kg).
+- The generated Toxicological Effects and Risk Assessment ([TERA](https://github.com/NIVA-Knowledge-Graph/NIVAUC/tree/master/kg)) knowledge graph.
+- [Machine learning models](https://github.com/NIVA-Knowledge-Graph/NIVAUC/tree/master/models).
 
 ## Related publications
 
